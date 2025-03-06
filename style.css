@@ -1,0 +1,40 @@
+section {
+    margin-bottom: 40px;
+}
+
+
+.imagesContainer img {
+    filter: grayscale(1);
+}
+
+.imagesContainer img:hover {
+    filter: grayscale(0);
+}
+
+.imgContainer img {
+    filter: brightness(50%);
+}
+
+.imgContainer img:hover {
+    filter: brightness(100%);
+}
+
+
+
+
+@media all and (min-width: 992px) {
+    .tableau {
+        width: calc(100% / 5);
+
+    }
+}
+
+@media all and (max-width: 992px) {
+    .imagesContainer img {
+        filter: grayscale(0);
+    }
+
+    .imgContainer img {
+        filter: brightness(100%);
+    }
+}
