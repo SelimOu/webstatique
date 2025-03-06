@@ -3,6 +3,7 @@ section {
 }
 
 
+
 .imagesContainer img {
     filter: grayscale(1);
 }
@@ -12,15 +13,12 @@ section {
 }
 
 .imgContainer img {
-    filter: brightness(50%);
-}
-
-.imgContainer img:hover {
     filter: brightness(100%);
 }
 
-
-
+.imgContainer img:hover {
+    filter: brightness(50%);
+}
 
 @media all and (min-width: 992px) {
     .tableau {
@@ -34,7 +32,5 @@ section {
         filter: grayscale(0);
     }
 
-    .imgContainer img {
-        filter: brightness(100%);
-    }
+
 }
